@@ -5,25 +5,33 @@ body{
 #wrapper {
     margin: 0 20px;
     line-height: 1.4;
-	background-color: #FFF;
-    font-family: $roboto;
-    
+    font-family: $bodyfont;
+  width:1200px;
+  margin: auto;
 }
 
 #header {
     @include clearfix;
-    border-bottom: 4px double pink;
+  color: $headerfontcolor;
+  a{
+    color: $headerfontcolor;
+  }
     #branding {
         @include clearfix;
         float: left;
         div {
             float: left;
         }
+
         #site-title > a{
+          margin-left: 50px;
 			font: {
-				family: $rosario;
+				family: $headerfont;
 				size: 2rem;
+
 			}
+
+
         }
     }
     #menu {
@@ -37,12 +45,29 @@ body{
     }
 }
 
+#container{
+  @include clearfix;
+}
+
 #content{
-	padding: 10px 50px;
+  float: left;
+	padding: 10px 35px;
+    background-color: #FFF;
+  width: 900px;
+  @include box-shadow(#333 0px 0px 30px);
+  @include border-radius(20px);
 
 	.entry-content{
 		margin: 0 50px;
 	}
+}
+
+#sidebar{
+  width: 180px;
+  padding: 10px;
+  float: left;
+  background-color: goldenrod;
+  margin-left: 30px;
 }
 
 #comments{
