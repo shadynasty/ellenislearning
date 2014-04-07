@@ -1,0 +1,36 @@
+body {
+    color: $fontcolor;
+}
+
+h1,h2,h3,h4 {
+    font-family: $rosario;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2{
+	font-size: 1.4rem;
+}
+
+h3{
+	font-size: 1.2rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: lighten($fontcolor, 20%);
+    &[href*="wp-admin"]{
+    	background-color: lightblue;
+    }
+}
+
+a:hover {
+    color: darken($fontcolor, 50%);
+    @include transition(color 1s);
+}
+
+p{
+	margin: 12px 0;
+}

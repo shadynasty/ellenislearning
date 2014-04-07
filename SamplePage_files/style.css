@@ -1,0 +1,174 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, sass/components/_global.scss */
+body {
+  color: #333333; }
+
+/* line 5, sass/components/_global.scss */
+h1, h2, h3, h4 {
+  font-family: "Rosario", sans-serif; }
+
+/* line 9, sass/components/_global.scss */
+h1 {
+  font-size: 1.8rem; }
+
+/* line 13, sass/components/_global.scss */
+h2 {
+  font-size: 1.4rem; }
+
+/* line 17, sass/components/_global.scss */
+h3 {
+  font-size: 1.2rem; }
+
+/* line 21, sass/components/_global.scss */
+a, a:visited {
+  text-decoration: none;
+  color: #666666; }
+  /* line 24, sass/components/_global.scss */
+  a[href*="wp-admin"], a:visited[href*="wp-admin"] {
+    background-color: lightblue; }
+
+/* line 29, sass/components/_global.scss */
+a:hover {
+  color: black;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  transition: color 1s; }
+
+/* line 34, sass/components/_global.scss */
+p {
+  margin: 12px 0; }
+
+/* line 1, sass/components/_main.scss */
+body {
+  background-color: #cccccc; }
+
+/* line 5, sass/components/_main.scss */
+#wrapper {
+  margin: 0 20px;
+  line-height: 1.4;
+  background-color: #FFF;
+  font-family: "Roboto", sans-serif; }
+
+/* line 13, sass/components/_main.scss */
+#header {
+  *zoom: 1;
+  border-bottom: 4px double pink; }
+  /* line 18, sass/bourbon/addons/_clearfix.scss */
+  #header:before, #header:after {
+    content: " ";
+    display: table; }
+  /* line 23, sass/bourbon/addons/_clearfix.scss */
+  #header:after {
+    clear: both; }
+  /* line 16, sass/components/_main.scss */
+  #header #branding {
+    *zoom: 1;
+    float: left; }
+    /* line 18, sass/bourbon/addons/_clearfix.scss */
+    #header #branding:before, #header #branding:after {
+      content: " ";
+      display: table; }
+    /* line 23, sass/bourbon/addons/_clearfix.scss */
+    #header #branding:after {
+      clear: both; }
+    /* line 19, sass/components/_main.scss */
+    #header #branding div {
+      float: left; }
+    /* line 22, sass/components/_main.scss */
+    #header #branding #site-title > a {
+      font-family: "Rosario", sans-serif;
+      font-size: 2rem; }
+  /* line 29, sass/components/_main.scss */
+  #header #menu {
+    float: right;
+    font-size: 12px;
+    text-align: right; }
+    /* line 34, sass/components/_main.scss */
+    #header #menu ul > li {
+      margin: 5px 0; }
+
+/* line 40, sass/components/_main.scss */
+#content {
+  padding: 10px 50px; }
+  /* line 43, sass/components/_main.scss */
+  #content .entry-content {
+    margin: 0 50px; }
+
+/* line 48, sass/components/_main.scss */
+#comments {
+  width: 550px;
+  margin: 25px auto;
+  background-color: #302013;
+  color: lightblue;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 3px solid black; }
+  /* line 57, sass/components/_main.scss */
+  #comments .comment-form-comment {
+    text-align: center; }
+  /* line 61, sass/components/_main.scss */
+  #comments .form-allowed-tags {
+    font-size: 11px; }

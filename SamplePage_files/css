@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rosario Regular'), local('Rosario-Regular'), url(http://themes.googleusercontent.com/static/fonts/rosario/v8/1czDsfUw1sIxXBq0PGI58ALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}

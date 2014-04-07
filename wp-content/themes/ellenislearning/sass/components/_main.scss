@@ -1,0 +1,64 @@
+body{
+	background-color: $bgcolor;
+}
+
+#wrapper {
+    margin: 0 20px;
+    line-height: 1.4;
+	background-color: #FFF;
+    font-family: $roboto;
+    
+}
+
+#header {
+    @include clearfix;
+    border-bottom: 4px double pink;
+    #branding {
+        @include clearfix;
+        float: left;
+        div {
+            float: left;
+        }
+        #site-title > a{
+			font: {
+				family: $rosario;
+				size: 2rem;
+			}
+        }
+    }
+    #menu {
+        float: right;
+        font-size: 12px;
+        text-align: right;
+
+        ul > li{
+        	margin: 5px 0;
+        }
+    }
+}
+
+#content{
+	padding: 10px 50px;
+
+	.entry-content{
+		margin: 0 50px;
+	}
+}
+
+#comments{
+	width: 550px;
+	margin: 25px auto;
+	background-color: $commentbgcolor;
+	color: lightblue;
+	padding: 10px;
+	@include border-radius(20px);
+	border: 3px solid black;
+
+	.comment-form-comment{
+		text-align: center;
+	}
+
+	.form-allowed-tags{
+		font-size: 11px;
+	}
+}
