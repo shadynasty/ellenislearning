@@ -1,9 +1,14 @@
 // FONT FAMILIES
-$bodyfont: $verdana;
-$headerfont: $georgia;
 
 $roboto : 'Roboto', sans-serif;
 $rosario : 'Rosario', sans-serif;
+
+// $bodyfont: $verdana;
+// $headerfont: $georgia;
+
+$bodyfont: $roboto;
+$headerfont: $rosario;
+
 
 // COLORS
 $fontcolor : #333;
